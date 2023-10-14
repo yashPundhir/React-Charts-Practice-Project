@@ -1,7 +1,11 @@
+import { DoughnutChart } from "./components/DoughnutChart";
+import { VerticalBarChart } from "./components/VerticalBarChart";
+
 function App() {
 	return (
 		<div className="py-20">
-			<h1>hello world</h1>
+			<DoughnutChart />
+			<VerticalBarChart />
 		</div>
 	);
 }
